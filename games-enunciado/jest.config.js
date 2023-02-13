@@ -6,4 +6,5 @@ module.exports = {
     ".+\\.ts$": "ts-jest",
   },
   testMatch: ["<rootDir>/tests/integration/*.(test|spec).ts"],
+  setupFiles: ["<rootDir>/tests/setup-envs.ts"]
 };
